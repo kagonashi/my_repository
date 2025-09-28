@@ -26,10 +26,10 @@ cout <<"Здравствуйте! Это программа для ввода д
     
     // Выполнение выбранной операции
     switch (operation) {
-        case 0: // Сложение
-            result = num1 + num2;
-            opSymbol = "+";
-            opName = "сложение";
+        case 0: // Вычитание
+  result = num1 - num2;
+            opSymbol = "-";
+            opName = "вычитание";
             break;
         case 1: // Вычитание
             result = num1 - num2;
